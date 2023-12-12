@@ -16,6 +16,6 @@ abstract class ImageFacade
         $directory = dirname($from);
         $fileName = pathinfo($from, PATHINFO_FILENAME);
 
-        ImageManager::getInstance()->convert($from, $directory . '/' . $fileName, $quality);
+        ImageManager::getInstance()->convert($from, $directory . '/' . $fileName . '.webp', $quality);
     }
 }
