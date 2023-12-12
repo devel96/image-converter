@@ -2,6 +2,7 @@
   "name": "devel96/image-converter",
   "description": "Image converter",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "David Karapetyan"
@@ -12,7 +13,8 @@
       "Devel96\\Converter\\": "src/"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=7.4.0",
     "ext-gd": "*"
