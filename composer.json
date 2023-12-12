@@ -1,0 +1,20 @@
+{
+  "name": "devel96/image-converter",
+  "description": "Image converter",
+  "type": "library",
+  "authors": [
+    {
+      "name": "David Karapetyan"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Devel96\\Converter\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4.0",
+    "ext-gd": "*"
+  }
+}
