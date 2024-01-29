@@ -17,6 +17,7 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.4.0",
-    "ext-gd": "*"
+    "ext-gd": "*",
+    "ext-fileinfo": "*"
   }
 }
